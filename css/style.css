@@ -1,0 +1,124 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+}
+
+input {
+  text-indent: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+i {
+  color: black;
+}
+
+.edit-and-bookmark-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: 0;
+  align-items: center;
+  margin-left: auto;
+}
+
+.formwrapper {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.formwrapper input {
+  width: 60%;
+}
+
+.formwrapper textarea {
+  width: 100%;
+  height: 100px;
+}
+
+#username:focus,
+#password:focus,
+input:focus {
+  outline: none !important;
+  border: 2px solid seagreen;
+  box-shadow: none;
+}
+
+#username,
+#password {
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.61);
+}
+
+.menu-container {
+  margin: 0 auto;
+}
+
+.search {
+  display: block;
+  margin: 0 auto;
+  height: 40px;
+  width: 50%;
+  min-width: 325px;
+  border-radius: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.61);
+}
+
+.scale:hover {
+  transform: scale(1.1);
+}
+
+.removefavourites,
+.delete-article-icon {
+  width: 70px;
+}
+
+.removefavourites:hover,
+.delete-article-icon:hover {
+  transform: scale(1.1);
+  opacity: 70%;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.message {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid grey;
+  color: grey;
+}
+
+.message.error {
+  border-color: rgba(255, 0, 0, 0.5);
+  color: black;
+}
+
+.message.warning {
+  border-color: rgba(255, 166, 0, 0.5);
+  color: black;
+}
+
+.message.success {
+  border-color: rgba(0, 128, 0, 0.5);
+  color: black;
+}
