@@ -5,8 +5,8 @@ A project made in school with vanilla js. A commerce site using strapi cms, clou
 
 ## Description
 
-A site connecting to a beer api displaying all items, allowing you to add them in and out of a cart, displaying cart and total price.
-Logging in adds CRUD functionality for all products.
+A site connecting to a strapi api displaying all items, allowing you to add them in and out of a cart, displaying cart and total price.
+Logging in adds CRUD functionality for all products. Setting product as featured displays them on home page.
 
 ## Built With
 
